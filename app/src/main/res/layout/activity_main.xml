@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -11,8 +10,10 @@
         android:layout_height="wrap_content"
         android:text="@string/btnText"
         android:id="@+id/button"
-        android:layout_alignParentTop="true"
+        android:onClick="sendNotification"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="51dp"
-        android:onClick="sendNotification" />
+        android:nestedScrollingEnabled="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="true" />
+
 </RelativeLayout>
