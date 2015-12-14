@@ -1,4 +1,4 @@
-package edu.indwes.cis.danielneumann.tinyversenotifier;
+package com.example.ryan.tinyversenotifier;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
